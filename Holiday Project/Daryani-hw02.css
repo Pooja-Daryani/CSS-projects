@@ -1,0 +1,136 @@
+body{
+	font:100% Verdana,Arial,sans-serif;
+	/*font-family:Verdana, Arial, sans-serif;*/
+	color:#fff; 
+	/*font-size:100%; */
+	background:#000 url(images/holidaysbackground.jpg) repeat fixed;
+	/*background-color: #000;
+	background-image:url(images/holidaysbackground.jpg);
+	background-repeat:repeat;
+	background-attachment:fixed;*/
+	background-size:auto;
+
+}
+#wrapper {
+	background:#000;
+	width:750px;
+	margin:0 auto;
+	border:8px double #bc0f17;
+}
+#header {
+	padding:0 50px;
+	/*border-bottom:2px dashed #bc0f17;*/
+}
+#header h1{
+	font:small-caps normal 900 2.4em Georgia,Times,serif;
+}
+/*#header h2{
+	font: 100%/15.25em Verdana, Arial, Helvetica, sans-serif;
+}*/
+#header h2{
+		font:italic normal 900 50px Broadway,fantasy;
+		/*font-family:“Comic Sans MS”, Broadway, fantasy;
+		font-size:50px;
+		font-style: italic;
+		font-variant:1000;*/
+		color:#bc0f17;
+}
+#content h2{
+	font: small-caps 100 1.8em Georgia,Times,serif;
+	margin:7px 0 0 15px;
+}
+
+.special{
+    float:left;
+    border-right:10px;
+    margin:0 50px;
+	border:5px solid #bc0f17;
+	background:#999;
+}
+.special1{
+    float:left;
+    border-right:10px;
+    margin:0 50px;
+	border:5px solid #bc0f17;
+	font-size:1.2em;
+	background:#999;
+}
+.special2{
+    float:right;
+    border-right:100px;
+    margin-right:50px;
+	border:5px solid #bc0f17;
+	font-size:1.2em;
+	background:#999;
+}
+#nav {
+	padding:8px 25px;
+}
+#nav a {
+	text-decoration:underline;
+	font-size:1.2em;
+}
+#nav a:link {
+	color:#bc0f17;
+}
+#nav a:visited {
+	color:#bc0f17;
+}
+#nav a:hover, #nav a:focus {
+	background:#bc0f17;
+	color:#fff;
+}
+#content h2{
+	color:#bc0f17;
+}
+#content h3{
+	font: normal small-caps bold 20px/1.25em Verdana,Arial,Helvetica;
+	color:#bc0f17;
+	margin:3px 10px;
+}
+#first dt{
+	color:#bc0f17;
+	margin:3px 10px;
+	
+}
+#first {
+	font: 100%/1.25em Verdana, Arial,Helvetica,sans-serif;
+	color:#fff;
+}
+
+.fltright{
+	float:right;
+	margin:5px 0 0 10px;
+	padding:5px;
+	border:1px solid #000;
+	background:#bc0f17;
+	
+}
+#footer{
+	font:0.875em/1.4em Verdana,Arial,sans-serif;
+	color:#000;
+	background:#ccc;
+	padding:3px 20px;
+	border:3px dashed #bc0f17;
+}
+#footer a:link {
+	color:#2d2c2c;
+	text-decoration:none;
+}
+#footer a:visited {
+	color:#515050;
+	text-decoration:none;
+}
+#footer a:hover, #footer a:focus {
+	color:#fff;
+	text-decoration:underline
+}
+.author {
+	background:yellow;
+	font-weight:bold;
+	color:#000;
+}
+#headings{
+	margin:10px;
+	padding:10px;
+}
