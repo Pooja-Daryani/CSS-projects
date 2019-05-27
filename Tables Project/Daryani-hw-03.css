@@ -1,0 +1,162 @@
+body {
+	font:100% Verdana, Arial, sans-serif;
+	color:#000;
+	background:#fff;
+	background-color:#4fc1ac;
+	background-image:url(images/background2.jpeg);
+	background-repeat:repeat;         
+	background-size:auto;
+	/*background-image:url(images/background1.jpeg),
+	url(images/background2.jpg),url(images/background1.jpeg),
+	url(images/background2.jpg);
+	background-repeat:no-repeat, no-repeat, no-repeat, no-repeat, repeat;  
+	background-position:900px 1400px, 600px 70px, 870px 25px, 940px 55px, 0 0; */
+}
+table{
+	text-align:left;
+	border-collapse: collapse;
+	width:80%;
+	margin:0 auto;
+}
+caption {
+	font-size:1.2em;
+	font-weight:bold;
+	font-variant:small-caps;
+	text-align:left;
+	letter-spacing:0.1em;
+	margin-bottom:0.5em;
+	caption-side:top;
+}
+#wrapper{
+	background:#c7f4ec;
+	width:1100px;
+	margin:0 auto;
+	border:8px double #bc0f17;
+	/*background-image:url(images/background2.jpg);*/
+}
+#header{
+	font:100% Verdana, Arial, sans-serif;
+}
+#nav{
+	/*background-color:#9f46aa;*/
+	/*background-image:url(images/background2.jpg);*/
+}
+#content{
+	/*background-color:#9f46aa;*/
+	/*background-image:url(images/background2.jpg);*/
+	
+}
+/*tr {
+	vertical-align:baseline;
+}*/
+th, td {
+	border:1px solid #000;
+	padding:10px;
+}
+th {background:#c7f6ec;}
+tfoot {
+	font-size:0.875em; 
+	font-style:italic;
+	text-align:right;
+}
+.last {
+	background:#07ffca;
+	padding:0;
+	border:1px solid #fff;
+}
+/*.odd {background:#fc9;}*/
+#first tr:nth-of-type(odd) {
+	background:#55d9c0;
+}
+#first tr:nth-of-type(even) {
+	background:#107050;
+}
+#first tr:hover{
+	background:#e02626;
+	color:#fff;
+}
+#first tr:hover .last, tr:hover th{
+	color:#000;
+}
+
+#first .second{
+	width:140px;
+	background:#4dd8ad;
+}
+#first .love {
+            background:#107050;
+            width:140px;
+}
+#first .angel {
+            background:#07ffca;
+            width:140px;
+}
+.second{
+	width:140px;
+	background:#4dd8ad;
+}
+.love {
+            background:#107050;
+            width:140px;
+}
+.angel {
+            background:#07ffca;
+            width:140px;
+}
+.orange {
+            background:#4dd8ad;
+            width:140px;
+}
+tr:hover{
+	background:#e02626;
+	color:#fff;
+}
+tr:hover .last, tr:hover th{
+	color:#000;
+}
+p {
+	font-size:1.1em;
+	line-height:1.6em;
+}
+li {
+	line-height:1.6em;
+}
+a[href$=".pdf"]{
+	background:url(images/attribute-icons/pdficon_small.gif) no-repeat right;
+	padding-right:20px;
+}
+a[href$=".docx"]{
+	background:url(images/attribute-icons/MSWord_icon.gif) no-repeat center right;
+	padding-right:25px;
+}
+a[href^="http://"], a[href^="https://"] {
+	background:url(images/attribute-icons/exit_small.png) no-repeat center right;
+	padding-right:15px;
+}
+a[href^="mailto:"] {
+	background:url(images/attribute-icons/mail_back.gif) no-repeat center right;
+	padding-right:15px;
+}
+abbr, abbr[title] {
+    border-bottom:5px dotted red;
+}
+[title] {
+     border:5px dotted purple;
+}
+em[lang|="en"]  {
+	border:3px dashed magenta;
+}
+span[lang="fr"]{
+	background:lightyellow;
+	font-weight:bold;
+}
+span[lang="it"]{
+	background:orange;
+	font-weight:bold;
+}
+img[alt~="Football"] {
+	border:3px double green;
+}
+img[alt~="Currency"]{
+	border:3px double green;
+}

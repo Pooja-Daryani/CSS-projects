@@ -1,0 +1,63 @@
+body{
+	font:100% Impact, fantasy;
+}
+p{
+	font:100% Geneva, Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	line-height:1.6em;
+
+}
+#nav, #footer, img {
+	display:none;
+}
+#header, #content {
+	width:auto;
+	margin:0;
+	padding:0;
+}
+* {
+	color:#000 !important;
+}
+h1 {
+	font-size: 32pt !important;
+}
+
+h2 {
+	font-size: 18pt !important;
+}
+h3 {
+	page-break-before:always;
+}
+h4{
+	page-break-before:always;
+}
+a:after {
+	content:" (" attr(href) ") ";
+	color:#999;
+	font-size:13pt;
+}
+table{
+        text-align:left;
+        border-collapse:collapse;
+        width:80%;
+        margin:0 auto; 
+}
+
+caption{
+        font-size:1.3em;
+        font-weight:bold;
+        text-align:center;
+        margin-bottom:1.1em;
+        caption-side:top;
+}
+
+th, td{
+        border:1px solid;
+        padding:7px;
+}
+
+tfoot{
+        font-size:0.895em; 
+        font-style:italic;
+        text-align:right;
+}
