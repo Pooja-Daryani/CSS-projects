@@ -1,0 +1,466 @@
+body {
+    
+	font:100% Verdana, Arial, sans-serif;
+	color:#000;
+	background:#fff;
+	background-color:#ec4d37;
+	background-image:url(images/background5.jpg);
+	background-repeat:repeat;         
+	background-size:auto;
+}
+#wrapper {
+	background:#f4d9c1;;
+	width:950px;
+	margin:0 auto;
+	border:5px solid #bc0f17;
+	position:relative;
+}
+#header {
+	padding:0 20px;
+	line-height:1.5em;
+	padding-bottom:50px;
+	border-bottom:3px dashed #600;
+	background-color:#f4d9c1;
+	color:#5b1700;
+}
+.logo {
+	position:absolute;
+	top:0;
+	right:-25px;
+	padding-top:5px;
+	padding-right:30px;
+}
+
+#header h1 {
+	font-family:"Lucida Calligraphy","Script MT Bold",cursive;
+	font-size: 32px;
+	font-style:normal;
+	font-weight: 900;
+	font-variant:normal;
+	/*font:small-caps italic 900 2.4em Georgia, Times, serif;*/
+}
+#header h2{
+	font-family:Chalkboard, Arial;
+	font-size:30px;
+	font-style:normal;
+	font-weight:100;
+	font-variant:normal;
+	padding-left: 40px;
+}
+
+#nav{
+	background:#ba3c12;
+	border-top:#fff;
+	border-bottom:3px dashed #600;	
+}
+#nav ul{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+}
+#nav ul li{
+	display:inline;
+	margin-left:-4px;
+}
+#nav ul li a {
+	color:#fff;
+	text-decoration:none;
+	padding:5px 15px;
+	border-right:1px solid #fff;
+}
+#nav ul li a:hover {
+	background:#5b1700;
+	color:#fff;
+}
+#active a{
+	border-left:1px solid #fff;
+	background:url(images/right.gif) no-repeat 0 0.625em;
+}
+
+#nav1 {
+	width:170px;
+	background:#ba3c12;
+	font:1em/2.3em Verdana, Arial, sans-serif;
+	border:15px solid #600;
+	text-align:center;
+	margin-left:5px;
+	margin-top:10px;
+}
+#navlist1 {
+	list-style:none;
+	margin:5px;
+	padding:5px 10px 5px 5px;
+	color:#fff;
+}
+#navlist1 li{
+	padding-left:20px;
+	border-bottom:1px solid #fff;
+	
+}	
+
+#navlist1 li a {
+	display:block;
+	color:#fff;
+}
+#navlist1 li:hover, #navlist1 li:focus {
+	background-color:#5b1700; 
+}
+
+#content{
+	background:orange url(images/backgroud6.jpg) repeat 0 0.625em;
+	color:#000;
+}
+#special {
+    border-right:10px;
+    margin:20px 20px;
+	border:5px solid #04660d;
+	font-size:1.2em;
+	background:#999;
+	background:orange url(images/image1.jpg) repeat 0 0.625em;
+	padding-bottom:50px;
+}
+.third{
+	color:#04660d;
+	margin-left:20px;
+	font-size:1.0em;
+	font-family:Verdana, Arial, sans-serif;
+	padding-left:20px;
+	line-height:1.8em;
+	padding-top:20px;
+}
+.name{
+	font-family:"Lucida Calligraphy", "Script MT Bold", cursive;
+	font-size: 32px;
+}
+table {
+	text-align:left;
+	border-collapse:collapse;
+	width:80%;
+	margin:0 auto;
+}
+caption{
+	caption-side:top;
+	font-size:1.2em;
+	font-weight:bold;
+	font-variant:small-caps;
+	letter-spacing:.1em;
+	text-align:left;
+	margin-bottom:0.5em;     
+}
+tr {
+	vertical-align:baseline;
+}
+
+th, td {
+	border: 1px solid #000;
+	padding:10px;
+}
+
+th {
+	background-color:#7b8937;	
+	}
+
+tfoot{
+   font-size:0.875em;
+   font-style:italic;
+   text-align:right;
+}
+.last{
+	background-color:#7b8937;
+	padding:0;
+	border:1px solid #fff;
+}
+.first{
+	width:80px;
+	background-color:#f4d9c1;
+}
+.love {
+            background:#6b7436;
+            width:33.33%;
+}
+.angel {
+            background:#f09e8c;
+            width:33.33%;
+}
+
+tr:hover{
+	background:#d72f01;
+	color:#fff;
+}
+tr:hover .last, tr:hover th{
+	color:#000;
+}
+ul{
+	line-height:1.5em;
+	list-style:square url(images/objArrow.gif) inside;
+}
+ol{
+	list-style-type:upper-roman;
+}
+li{
+	margin-bottom:8px;
+}
+.image21{
+	float:right;
+    border-right:30px;
+    margin:20px 50px;
+	border:5px solid #04660d;
+	font-size:1.2em;
+	background:#999;
+}
+.sweet{
+	float:right;
+    border-right:10px;
+    margin:20px 50px;
+	border:5px solid #04660d;
+	font-size:1.2em;
+	background:#999;
+}
+.sweet1{
+	float:right;
+    border-right:10px;
+    margin:20px 50px;
+	border:5px solid #04660d;
+	font-size:1.2em;
+	background:#999;
+}
+#content p{
+	padding-left:20px;
+}
+.contact{
+	border-right:10px;
+    margin:10px 50px;
+	border:4px solid #04660d;
+	background:#999;
+}
+#spices{
+	font:100% Verdana, Arial, sans-serif;
+	color:#fff;
+	background:#000;
+	background-image:url(images/spices.jpg);
+	background-repeat:no-repeat;         
+	background-size:cover;
+	padding-bottom:20px;
+	padding-left:30px;
+}
+#footer{
+	font:0.875em/1.4em Verdana,Arial,sans-serif;
+	color:#04660d;
+	background-color:#f4d9c1;;
+	padding:3px 20px;
+	border:3px dashed #bc0f17;
+	
+}
+#footer a:link {
+	color:#2d2c2c;
+	text-decoration:none;
+}
+#footer a:visited {
+	color:#515050;
+	text-decoration:none;
+}
+#footer a:hover, #footer a:focus {
+	color:#04660d;
+	text-decoration:underline;
+}
+#content h2{
+	color:#5b1700;
+	font:30px/2.3em Verdana, Arial, sans-serif;
+	padding-left:20px;
+}
+#background{
+	color:#fff;
+	background-color:#ec4d37;
+	background-image:url(images/backgroud6.jpg);
+	background-repeat:repeat;         
+	background-size:auto;
+}
+.ceo {
+	background:yellow;
+	font-weight:bold;
+	color:#000;
+}
+#column{
+	margin:0 0 0 220px;
+	padding:10px;
+	border-left:3px solid #5b1700;
+}
+.fourth{
+		  background-color: #000;
+          background-image:url(images/background1.jpg);
+          background-repeat: repeat;
+          background-size:contain;
+		  color:#fff;
+		  padding:10px 20px 350px 20px;
+		
+}
+#nav2 {
+	color:#04660d;
+	float:left;
+	padding:15px 10px;
+}
+#nav2 ul li{
+	color:#04660d;
+	list-style: none;
+	line-height:2.4em;
+
+}
+#nav2 a:link{
+	text-decoration:none;
+	color:#04660d;
+}
+#nav2 a:hover , #nav a:focus{
+	text-decoration:underline;
+	color:#600;
+
+}
+a[href$=".pdf"]{
+	background:url(images/attribute-icons/pdficon_small.gif) no-repeat right;
+	padding-right:20px;
+}
+a[href$=".docx"]{
+	background:url(images/attribute-icons/MSWord_icon.gif) no-repeat center right;
+	padding-right:25px;
+}
+a[href^="http://"], a[href^="https://"] {
+	background:url(images/attribute-icons/exit_small.png) no-repeat center right;
+	padding-right:15px;
+}
+a[href^="mailto:"] {
+	background:url(images/attribute-icons/mail_back.gif) no-repeat center right;
+	padding-right:15px;
+}
+address {
+	font-style:normal;	
+}
+	#zindex div{			
+				width:60px;
+				height:60px;
+				border:1px solid #999;
+				position:absolute;
+			}
+			/* Static  positioning*/
+			#zone{
+				margin-top:20px;
+				background-image:url(images/zoner.jpg);
+				z-index:0;
+				left:0;
+				top:0;
+			}
+			#ztwo{
+				background-image:url(images/ztwor.jpg);
+				z-index:1;
+				top:50px;
+				left:50px;
+			}
+			#zthree{
+				background-image:url(images/zthreer.jpg);
+				z-index:4;
+				top:100px;
+				left:100px;
+			}
+			#zfour{
+			background-image:url(images/zfourr.jpg);
+				top:150px;
+				left:150px;
+				z-index:3;
+			}
+     #absolute div{
+				width:60px;
+				height:60px;
+				border:1px solid #999;
+			}
+			#aone{
+				background:url(images/zoner.jpg);
+				background-attachment:fixed;
+				position:absolute;
+				left:0;
+				top:0;
+			}
+			#atwo{
+				background:url(images/ztwor.jpg);
+				position:absolute;
+				top:0;
+				right:0;
+			}
+			#athree{
+				background:url(images/zthreer.jpg);;
+				position:absolute;
+				right:0;
+				bottom:0;
+			}
+			#afour{
+				background:url(images/zfourr.jpg);
+				position:absolute;
+				bottom:0;
+				left:0;
+			}
+
+			#fixed div{
+				width:60px;
+				height:60px;
+				border:1px solid #999;
+				position:fixed;
+			}
+
+			
+			#fone{
+				background:url(images/zoner.jpg);
+				left:0;
+				top:0;
+			}
+			#ftwo{
+				background:url(images/ztwor.jpg);
+				top:0;
+				right:0;
+			}
+			#fthree{
+				background:url(images/zthreer.jpg);
+				right:0;
+				bottom:0;
+			}
+			#ffour{
+				background:url(images/zfourr.jpg);
+				bottom:0;
+				left:0;
+			}
+     #absoluterelative div{
+				width:60px;
+				height:60px;
+				border:1px solid #999;
+			}
+			#container{
+				width:300px;
+				height:300px;
+				background:#fff;
+				position:relative;
+				margin:auto;
+			}
+			/* Static  positioning*/
+			#arone{
+				background:url(images/zoner.jpg);
+				position:absolute;
+				left:0;
+				top:0;
+			}
+			#artwo{
+				background:url(images/ztwor.jpg);
+				position:absolute;
+				top:0;
+				right:0;
+			}
+			#arthree{
+				background:url(images/zthreer.jpg);
+				position:absolute;
+				right:0;
+				bottom:0;
+			}
+			#arfour{
+				background:url(images/zfourr.jpg);
+				position:absolute;
+				bottom:0;
+				left:0;
+			}
+

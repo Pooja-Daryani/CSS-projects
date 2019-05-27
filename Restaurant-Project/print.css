@@ -1,0 +1,64 @@
+#nav, #nav1, #nav2, #footer, #top, img, a {
+	display:none;
+}
+.hide{
+	display:none;
+}
+
+#header, #content{
+	font:12pt sans-serif, Arial, Verdana;
+	width:auto;
+	margin:0;
+	padding:0;
+}
+
+* {
+	color:#000 !important;
+}
+p {
+	font-size:12pt;
+	line-height:1.3em;
+}
+
+
+a:after {
+	content:" (" attr(href) ") ";
+	color:#999;
+	font-size:13pt;
+}
+
+
+table{
+		
+        text-align:left;
+        border-collapse:collapse;
+        width:80%;
+        margin:0 auto; 
+}
+
+caption{
+        font-size:1.2em;
+        font-weight:bold;
+        text-align:center;
+        margin-bottom:1em;
+        caption-side:top;
+}
+
+th, td{
+        border:1px solid;
+        padding:7px;
+}
+
+tfoot{
+        font-size:0.875em; 
+        font-style:italic;
+        text-align:right;
+}
+.hide{
+	color:#fff;
+	font:12pt sans-serif, Arial, Verdana;
+	
+}
+
+
+
